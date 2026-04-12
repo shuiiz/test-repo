@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Solar System - Sun and Eight Planets</title>
+  <style>
+    :root {
+      --bg: #0a0e1a;
+      --surface: #111827;
+      --text: #d1d5db;
+      --heading: #e2c96b;
+      --subheading: #93c5fd;
+      --nav-link: #60a5fa;
+      --border: #1f2937;
+      --accent: #f59e0b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      color: var(--heading);
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      color: var(--heading);
+      font-size: 1.8rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      color: var(--subheading);
+      font-size: 1.3rem;
+      margin-top: 1.2rem;
+      margin-bottom: 0.6rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background-color: var(--surface);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 1rem;
+    }
+
+    nav a {
+      color: var(--nav-link);
+      text-decoration: none;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    nav a:hover {
+      background-color: var(--border);
+    }
+
+    main {
+      padding: 1rem 0;
+    }
+
+    section {
+      background-color: var(--surface);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      border: 1px solid var(--border);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1rem 0;
+      display: block;
+    }
+
+    ul {
+      margin: 1rem 0 1rem 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    dfn {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--nav-link);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Solar System</h1>
+    <p>A comprehensive guide to the Sun and the eight planets that orbit around it</p>
+  </header>
+
+  <nav aria-label="Solar system sections">
+    <a href="#overview">Overview</a>
+    <a href="#sun">The Sun</a>
+    <a href="#mercury">Mercury</a>
+    <a href="#venus">Venus</a>
+    <a href="#earth">Earth</a>
+    <a href="#mars">Mars</a>
+    <a href="#jupiter">Jupiter</a>
+    <a href="#saturn">Saturn</a>
+    <a href="#uranus">Uranus</a>
+    <a href="#neptune">Neptune</a>
+  </nav>
+
+  <main>
+    <section id="overview">
+      <h2>Overview of the Solar System</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Solar_sys8.jpg/800px-Solar_sys8.jpg" alt="Diagram showing all eight planets of the solar system in their orbital arrangement around the Sun">
+      <h3>Introduction to Our Cosmic Neighborhood</h3>
+      <p>The <dfn>solar system</dfn> is the gravitationally bound system comprising the Sun and all the objects that orbit it, including eight planets, their moons, dwarf planets, asteroids, comets, and countless smaller bodies. Our solar system formed approximately 4.6 billion years ago from a giant molecular cloud of gas and dust that collapsed under its own gravity. This process, known as the nebular hypothesis, explains how the Sun and all planetary bodies came into existence from the same primordial material.</p>
+      <p>The solar system is located in the Milky Way galaxy, specifically in one of its spiral arms called the Orion Arm or Local Spur. We are situated approximately 26,000 light-years from the galactic center, completing one orbit around the galaxy every 225 to 250 million years. This journey through the galaxy exposes our solar system to varying cosmic environments over millions of years.</p>
+      <h3>Measuring Cosmic Distances</h3>
+      <p>Scientists use the <dfn>astronomical unit</dfn> (AU) as a standard measure of distance within our solar system. One astronomical unit equals the average distance from the Earth to the Sun, which is approximately 149.6 million kilometers or about 93 million miles. This convenient measurement allows astronomers to express vast interplanetary distances in more manageable numbers. For example, Neptune orbits at roughly 30 AU from the Sun, meaning it is thirty times farther from the Sun than Earth is.</p>
+      <p>The solar system extends far beyond the orbit of Neptune. The Kuiper Belt, a region of icy bodies beyond Neptune, spans from about 30 to 50 AU. Even farther out, the hypothetical Oort Cloud is thought to extend from about 2,000 to 100,000 AU, forming a spherical shell of icy objects that marks the gravitational boundary of our solar system.</p>
+      <h3>The Eight Planets</h3>
+      <p>The eight planets of our solar system are divided into two main categories based on their composition and location. The four inner planets, Mercury, Venus, Earth, and Mars, are known as terrestrial or rocky planets because they have solid, rocky surfaces. These planets are relatively small and dense, with few or no moons. The four outer planets, Jupiter, Saturn, Uranus, and Neptune, are much larger and are composed primarily of gases and ices, earning them the names gas giants and ice giants respectively.</p>
+      <ul>
+        <li>Mercury is the smallest planet and closest to the Sun, completing an orbit in just 88 Earth days</li>
+        <li>Venus is similar in size to Earth but has a toxic atmosphere and extreme surface temperatures</li>
+        <li>Earth is the only known planet to harbor life, with liquid water on its surface</li>
+        <li>Mars is known as the Red Planet due to iron oxide on its surface, and it has the largest volcano in the solar system</li>
+        <li>Jupiter is the largest planet, containing more mass than all other planets combined</li>
+        <li>Saturn is famous for its spectacular ring system made of ice and rock particles</li>
+        <li>Uranus rotates on its side and has a distinctive blue-green color from methane in its atmosphere</li>
+        <li>Neptune is the windiest planet with storms that rage at supersonic speeds</li>
+      </ul>
+      <h3>Formation and Evolution</h3>
+      <p>The nebular hypothesis describes how our solar system emerged from a rotating disk of gas and dust called the solar nebula. As this cloud collapsed under gravity, it began to spin faster and flatten into a disk shape. The majority of the material accumulated at the center, forming the proto-Sun. Meanwhile, particles in the surrounding disk began to collide and stick together through a process called accretion, gradually building up into planetesimals and eventually into the planets we see today. This entire formation process took approximately 10 to 20 million years to complete.</p>
+    </section>
+
+    <section id="sun">
+      <h2>The Sun</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/800px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg" alt="High resolution image of the Sun captured by NASA Solar Dynamics Observatory showing solar surface details and corona">
+      <h3>Overview</h3>
+      <p>The Sun is the star at the center of our solar system and by far the largest object within it. It is a nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core. The Sun accounts for approximately 99.86 percent of the total mass of the solar system. Its immense gravitational pull holds all the planets, asteroids, comets, and other objects in their orbits. Without the Sun, life on Earth would be impossible, as it provides the light and heat necessary for all biological processes.</p>
+      <p>The Sun is classified as a G-type main-sequence star, often referred to as a yellow dwarf, though it actually appears white when viewed from space. It is approximately 4.6 billion years old and is roughly halfway through its main-sequence phase. In about 5 billion years, the Sun will exhaust the hydrogen fuel in its core, expand into a red giant, and eventually shed its outer layers to become a white dwarf star.</p>
+      <h3>Physical Characteristics</h3>
+      <p>The Sun has a diameter of approximately 1.39 million kilometers, which is about 109 times the diameter of Earth. Its mass is roughly 333,000 times that of Earth, and about 1.3 million Earths could fit inside the Sun. The surface temperature of the Sun, known as the photosphere, is about 5,500 degrees Celsius. However, the corona, the outermost layer of the Sun's atmosphere, reaches temperatures of over 1 million degrees Celsius, a phenomenon that scientists are still working to fully understand.</p>
+      <p>The Sun's core is where nuclear fusion occurs, with temperatures reaching approximately 15 million degrees Celsius. Here, hydrogen atoms are fused together to form helium, releasing enormous amounts of energy in the process. Every second, the Sun converts about 600 million tons of hydrogen into helium, releasing energy equivalent to billions of nuclear bombs. This energy radiates outward, taking about 100,000 years to journey from the core to the surface, and then just over 8 minutes to travel from the Sun to Earth.</p>
+      <h3>Solar Wind and Heliosphere</h3>
+      <p>The Sun constantly emits a stream of charged particles known as the solar wind, which flows outward through the solar system at speeds of 400 to 800 kilometers per second. This solar wind creates a vast bubble called the heliosphere, which extends far beyond the orbit of Pluto and shields the solar system from much of the interstellar radiation. The boundary of the heliosphere, where the solar wind meets the interstellar medium, is called the heliopause.</p>
+      <p>Solar activity follows an approximately 11-year cycle, during which the number of sunspots, solar flares, and coronal mass ejections increases and decreases. These events can have significant effects on Earth, including disruptions to satellite communications, power grids, and radio transmissions. The study of space weather has become increasingly important as our technological society becomes more dependent on systems vulnerable to solar activity.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>The Sun rotates once every 25 days at its equator but takes about 35 days at its poles due to differential rotation</li>
+        <li>Light from the Sun takes approximately 8 minutes and 20 seconds to reach Earth</li>
+        <li>The Sun loses about 4 million tons of mass every second through fusion and the solar wind</li>
+        <li>Sunspots are cooler regions on the Sun's surface, typically around 3,500 degrees Celsius</li>
+        <li>The Sun's magnetic field extends throughout the entire solar system and is carried by the solar wind</li>
+        <li>Solar flares can release energy equivalent to millions of 100-megaton hydrogen bombs</li>
+      </ul>
+    </section>
+
+    <section id="mercury">
+      <h2>Mercury</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/800px-Mercury_in_true_color.jpg" alt="True color photograph of planet Mercury showing its heavily cratered gray surface">
+      <h3>Overview</h3>
+      <p>Mercury is the smallest planet in our solar system and the closest to the Sun. As a terrestrial planet, it has a solid, rocky surface covered with craters, ridges, and plains. Mercury is only slightly larger than Earth's Moon and has no moons or rings of its own. Due to its proximity to the Sun, Mercury is difficult to observe from Earth, as it never strays far from the Sun in our sky. Ancient civilizations observed Mercury and named it after the swift messenger god due to its rapid movement across the sky.</p>
+      <p>Despite being closest to the Sun, Mercury is not the hottest planet in our solar system. That distinction belongs to Venus, which has a thick atmosphere that traps heat. Mercury's lack of a substantial atmosphere means that heat escapes rapidly, leading to extreme temperature variations between its day and night sides.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Mercury has a diameter of approximately 4,879 kilometers, making it smaller than some moons in our solar system, including Ganymede and Titan. Despite its small size, Mercury is the second densest planet after Earth, due to its large iron core that makes up about 85 percent of the planet's radius. This core is larger relative to the planet than any other in the solar system. The surface of Mercury is heavily cratered, resembling Earth's Moon, with impact craters ranging from small bowl-shaped depressions to multi-ringed basins hundreds of kilometers across.</p>
+      <p>Surface temperatures on Mercury vary dramatically, ranging from minus 180 degrees Celsius at night to 430 degrees Celsius during the day. This 600-degree temperature swing is the most extreme of any planet in our solar system. Mercury's thin atmosphere, called an exosphere, consists of atoms blasted off the surface by the solar wind and micrometeorites, including oxygen, sodium, hydrogen, helium, and potassium.</p>
+      <h3>Orbital Data</h3>
+      <p>Mercury orbits the Sun at an average distance of only 0.39 AU, completing one orbit in just 88 Earth days. This gives Mercury the shortest year of any planet in our solar system. However, Mercury rotates very slowly on its axis, taking 59 Earth days to complete one rotation. This creates a peculiar situation where a single day on Mercury, from sunrise to sunrise, lasts 176 Earth days, or two Mercurian years. Mercury's orbit is the most eccentric of all the planets, with its distance from the Sun varying from 46 million to 70 million kilometers.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Mercury has been visited by only two spacecraft: Mariner 10 in the 1970s and MESSENGER from 2011 to 2015</li>
+        <li>Despite its extreme heat, ice exists in permanently shadowed craters near Mercury's poles</li>
+        <li>Mercury has a magnetic field, though it is only about 1 percent as strong as Earth's</li>
+        <li>The Caloris Basin on Mercury is one of the largest impact structures in the solar system, about 1,550 kilometers in diameter</li>
+        <li>Mercury's surface has shrunk by several kilometers as its core has cooled and contracted over billions of years</li>
+        <li>The planet has no moons and no rings orbiting around it</li>
+      </ul>
+    </section>
+
+    <section id="venus">
+      <h2>Venus</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/800px-Venus_from_Mariner_10.jpg" alt="Photograph of Venus from Mariner 10 spacecraft showing thick cloud cover in ultraviolet light">
+      <h3>Overview</h3>
+      <p>Venus is the second planet from the Sun and is often called Earth's twin due to their similar size and mass. However, the similarities end there, as Venus has the most hostile surface environment of any planet in our solar system. Its thick atmosphere creates a runaway greenhouse effect, making Venus the hottest planet with surface temperatures reaching 465 degrees Celsius. The atmospheric pressure on Venus's surface is about 90 times that of Earth, equivalent to the pressure found nearly a kilometer under Earth's oceans.</p>
+      <p>Venus is the brightest natural object in Earth's night sky after the Moon, earning it the names Morning Star and Evening Star depending on when it is visible. Ancient astronomers initially thought Venus was two separate objects because it appears on opposite sides of the Sun at different times of the year. Venus rotates in the opposite direction to most planets, meaning the Sun rises in the west and sets in the east on Venus.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Venus has a diameter of 12,104 kilometers, about 95 percent of Earth's diameter, and a mass of about 82 percent of Earth's mass. The planet's surface is relatively young geologically, estimated to be only about 300 to 500 million years old, suggesting that a global resurfacing event erased older features. The landscape includes vast volcanic plains, numerous volcanoes some of which may still be active, mountain ranges, and highland regions called tesserae with complex, fractured terrain.</p>
+      <p>The atmosphere of Venus is composed of 96.5 percent carbon dioxide with clouds of sulfuric acid. These thick clouds reflect about 70 percent of incoming sunlight, making Venus so bright in our sky. The clouds also completely obscure the surface, requiring radar mapping from orbiting spacecraft to reveal Venus's terrain. Wind speeds at the cloud tops can reach 360 kilometers per hour, though winds at the surface are much gentler.</p>
+      <h3>Orbital Data</h3>
+      <p>Venus orbits the Sun at an average distance of 0.72 AU, completing one orbit in 225 Earth days. Venus has the most circular orbit of all the planets, with its distance from the Sun varying by only about 1.5 percent. The planet rotates extremely slowly, taking 243 Earth days to complete one rotation, which is longer than its orbital period. This means a Venusian day is longer than a Venusian year. Venus's axial tilt is only about 3 degrees, giving it virtually no seasonal variation.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Venus rotates backwards compared to most planets, a phenomenon called retrograde rotation</li>
+        <li>The Soviet Venera program successfully landed several spacecraft on Venus between 1970 and 1985</li>
+        <li>Lightning has been detected in Venus's atmosphere, though it differs from lightning on Earth</li>
+        <li>Venus has over 1,600 major volcanoes, more than any other planet in the solar system</li>
+        <li>The greenhouse effect on Venus raises surface temperatures by about 500 degrees Celsius</li>
+        <li>A day on Venus from sunrise to sunrise lasts about 117 Earth days</li>
+      </ul>
+    </section>
+
+    <section id="earth">
+      <h2>Earth</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/800px-The_Blue_Marble_%28remastered%29.jpg" alt="The Blue Marble photograph of Earth taken by Apollo 17 astronauts showing Africa and Antarctica">
+      <h3>Overview</h3>
+      <p>Earth is the third planet from the Sun and the only known world to harbor life. Our home planet is unique in the solar system for having liquid water on its surface, a breathable atmosphere, and a magnetic field that protects it from harmful solar radiation. Earth formed approximately 4.5 billion years ago, and life appeared on the planet within its first billion years. Over the eons, life has profoundly transformed Earth's atmosphere, surface, and climate.</p>
+      <p>From space, Earth appears as a brilliant blue marble, with the blue color coming from sunlight scattered by the atmosphere and reflected by the oceans. About 71 percent of Earth's surface is covered by water, giving rise to its nickname, the Blue Planet. The remaining 29 percent consists of continents and islands, which are constantly moving and reshaping through the process of plate tectonics.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Earth has an equatorial diameter of 12,756 kilometers and a polar diameter of 12,714 kilometers, making it slightly flattened at the poles due to its rotation. Earth is the densest planet in the solar system, with an average density of 5.51 grams per cubic centimeter. The planet has a layered internal structure consisting of an iron-nickel core, a silicate mantle, and a thin crust. The outer core is liquid iron, and its motion generates Earth's magnetic field through a process called the geodynamo.</p>
+      <p>Earth's atmosphere is composed of 78 percent nitrogen, 21 percent oxygen, and 1 percent other gases including argon and carbon dioxide. This atmosphere extends outward for hundreds of kilometers, gradually thinning into space. The ozone layer in the stratosphere absorbs harmful ultraviolet radiation from the Sun. Earth's average surface temperature is about 15 degrees Celsius, but temperatures vary widely from the cold polar regions to the hot equatorial deserts.</p>
+      <h3>Orbital Data</h3>
+      <p>Earth orbits the Sun at an average distance of 1 AU, which by definition is about 149.6 million kilometers. One complete orbit takes 365.25 days, which is why we add a leap day every four years. Earth rotates on its axis once every 23 hours, 56 minutes, and 4 seconds, which is called a sidereal day. The solar day, from noon to noon, is exactly 24 hours. Earth's axis is tilted 23.5 degrees relative to its orbital plane, which causes the seasons as different hemispheres receive more or less direct sunlight throughout the year.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Earth has one natural satellite, the Moon, which is the fifth largest moon in the solar system</li>
+        <li>The deepest point on Earth is the Mariana Trench, reaching nearly 11 kilometers below sea level</li>
+        <li>Mount Everest is the highest point above sea level at 8,848 meters</li>
+        <li>Earth's magnetic field extends tens of thousands of kilometers into space, forming the magnetosphere</li>
+        <li>The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year</li>
+        <li>Earth is the only planet not named after a Greek or Roman deity</li>
+      </ul>
+    </section>
+
+    <section id="mars">
+      <h2>Mars</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/800px-OSIRIS_Mars_true_color.jpg" alt="True color photograph of Mars showing its reddish surface with visible polar ice caps">
+      <h3>Overview</h3>
+      <p>Mars is the fourth planet from the Sun and the second smallest planet in the solar system. Often called the Red Planet because of its reddish appearance caused by iron oxide (rust) on its surface, Mars has captivated human imagination for centuries as a potential abode for life. Mars has been a prime target for exploration, with numerous missions sent to orbit and land on its surface. The planet has features reminiscent of both Earth and the Moon, including volcanoes, valleys, deserts, and polar ice caps.</p>
+      <p>Mars has two small, irregularly shaped moons named Phobos and Deimos, which are thought to be captured asteroids. The planet has a thin atmosphere that cannot support liquid water on its surface today, though evidence suggests that water once flowed freely on Mars billions of years ago. The search for past or present life on Mars remains one of the primary goals of planetary exploration.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Mars has a diameter of approximately 6,779 kilometers, about half the diameter of Earth, and a mass of about 11 percent of Earth's mass. The planet has the largest volcano in the solar system, Olympus Mons, which rises 22 kilometers above the surrounding plains and is about 600 kilometers across. Mars also has the largest canyon system, Valles Marineris, which stretches over 4,000 kilometers long, up to 200 kilometers wide, and up to 7 kilometers deep.</p>
+      <p>The Martian atmosphere is composed of 95 percent carbon dioxide with traces of nitrogen and argon. Atmospheric pressure at the surface is less than 1 percent of Earth's surface pressure. Despite this thin atmosphere, Mars experiences dust storms that can sometimes engulf the entire planet and last for months. Surface temperatures on Mars range from about minus 125 degrees Celsius at the winter poles to 20 degrees Celsius at the equator during summer.</p>
+      <h3>Orbital Data</h3>
+      <p>Mars orbits the Sun at an average distance of 1.52 AU, completing one orbit in about 687 Earth days, or roughly 1.88 Earth years. A day on Mars, called a sol, is only slightly longer than an Earth day at 24 hours and 37 minutes. Mars has an axial tilt of about 25 degrees, similar to Earth's, which gives it seasons. However, because of Mars's elliptical orbit, the seasons are not of equal length. Mars's orbit brings it closest to Earth roughly every 26 months, making these opposition periods ideal times for launching missions.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Mars has been visited by more spacecraft than any other planet except Earth</li>
+        <li>The Mars rovers Spirit, Opportunity, Curiosity, and Perseverance have explored the surface extensively</li>
+        <li>Evidence of ancient riverbeds and lake beds suggests Mars once had a warmer, wetter climate</li>
+        <li>Phobos orbits Mars faster than Mars rotates, rising in the west and setting in the east twice each sol</li>
+        <li>The polar ice caps contain both water ice and carbon dioxide ice</li>
+        <li>Mars has about 38 percent of Earth's gravity, meaning you could jump nearly three times higher there</li>
+      </ul>
+    </section>
+
+    <section id="jupiter">
+      <h2>Jupiter</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Jupiter_New_Horizons.jpg/800px-Jupiter_New_Horizons.jpg" alt="Photograph of Jupiter from New Horizons spacecraft showing colorful cloud bands and the Great Red Spot storm">
+      <h3>Overview</h3>
+      <p>Jupiter is the fifth planet from the Sun and by far the largest planet in our solar system. This gas giant has a mass more than twice that of all other planets combined, yet it is still only one-thousandth the mass of the Sun. Jupiter is composed primarily of hydrogen and helium, similar to the Sun, and lacks a solid surface. Instead, its gaseous atmosphere transitions gradually into a liquid interior under immense pressure. Jupiter's rapid rotation creates pronounced equatorial bulging and drives powerful atmospheric dynamics.</p>
+      <p>Jupiter has been known since ancient times as one of the brightest objects in the night sky. Galileo Galilei made the first detailed observations of Jupiter in 1610, discovering its four largest moons: Io, Europa, Ganymede, and Callisto, now known as the Galilean moons. Jupiter has at least 95 known moons, forming a miniature planetary system within the solar system.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Jupiter has an equatorial diameter of about 142,984 kilometers, more than 11 times the diameter of Earth. Despite its enormous size, Jupiter rotates faster than any other planet, completing one rotation in just under 10 hours. This rapid rotation flattens the planet at the poles and causes the distinctive banded appearance of its atmosphere. Jupiter's famous Great Red Spot is a massive storm larger than Earth that has been raging for at least 350 years.</p>
+      <p>Jupiter's atmosphere displays colorful bands of clouds at different latitudes, driven by jet streams that flow in alternating directions. The light-colored zones are areas of rising gas, while the darker belts are regions of sinking gas. Jupiter likely has a small rocky core surrounded by a deep layer of metallic hydrogen, which conducts electricity and generates the planet's powerful magnetic field, the strongest of any planet in the solar system.</p>
+      <h3>Orbital Data</h3>
+      <p>Jupiter orbits the Sun at an average distance of 5.2 AU, completing one orbit in about 11.86 Earth years. Despite its size, Jupiter's rapid rotation gives it the shortest day of any planet at approximately 9 hours and 56 minutes. Jupiter's orbit is slightly eccentric, with its distance from the Sun varying between 4.95 and 5.46 AU. The planet has a very small axial tilt of only 3.1 degrees, meaning it experiences essentially no seasons.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Jupiter's moon Europa may have a liquid water ocean beneath its icy surface, making it a prime target in the search for extraterrestrial life</li>
+        <li>The Great Red Spot storm has winds reaching up to 680 kilometers per hour</li>
+        <li>Jupiter's magnetic field is about 20,000 times stronger than Earth's</li>
+        <li>Io is the most volcanically active body in the solar system, with hundreds of active volcanoes</li>
+        <li>Ganymede is the largest moon in the solar system, even larger than the planet Mercury</li>
+        <li>Jupiter acts as a cosmic vacuum cleaner, its gravity attracting or deflecting many asteroids and comets</li>
+      </ul>
+    </section>
+
+    <section id="saturn">
+      <h2>Saturn</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/800px-Saturn_during_Equinox.jpg" alt="Photograph of Saturn during equinox taken by Cassini spacecraft showing the planet rings edge-on">
+      <h3>Overview</h3>
+      <p>Saturn is the sixth planet from the Sun and the second largest planet in our solar system. This stunning gas giant is best known for its spectacular ring system, which is the most extensive and easily visible of any planet. Saturn is composed primarily of hydrogen and helium, and like Jupiter, it lacks a solid surface. The planet is so light that if there were an ocean large enough to hold it, Saturn would float. Saturn has been known since ancient times and was the most distant planet known until the discovery of Uranus in 1781.</p>
+      <p>Saturn has at least 146 known moons, more than any other planet in the solar system. Its largest moon, Titan, is the second largest moon in the solar system and the only moon with a thick atmosphere. Titan's atmosphere is denser than Earth's and is composed primarily of nitrogen with methane clouds and rain, creating a landscape with lakes and rivers of liquid hydrocarbons.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Saturn has an equatorial diameter of approximately 120,536 kilometers, about 9.5 times the diameter of Earth. It is the most oblate planet in the solar system, with its equatorial diameter being about 10 percent larger than its polar diameter due to its rapid rotation. Saturn completes one rotation in just 10 hours and 33 minutes. Despite being the second largest planet, Saturn has the lowest density of any planet, only about 0.69 grams per cubic centimeter, less than the density of water.</p>
+      <p>Saturn's ring system extends from about 7,000 kilometers to 80,000 kilometers above the planet's equator. The rings are composed primarily of ice particles ranging in size from tiny grains to chunks as large as houses, along with rocky debris and dust. The rings are surprisingly thin, averaging only about 10 meters thick despite their enormous horizontal extent. Saturn also has a hexagonal-shaped storm at its north pole, a unique feature not seen on any other planet.</p>
+      <h3>Orbital Data</h3>
+      <p>Saturn orbits the Sun at an average distance of 9.58 AU, completing one orbit in about 29.46 Earth years. Saturn's axial tilt of 26.7 degrees is similar to Earth's, giving it distinct seasons, though each season lasts over seven Earth years. Saturn's orbit is moderately eccentric, with its distance from the Sun varying between 9.02 and 10.05 AU. The Cassini spacecraft orbited Saturn from 2004 to 2017, providing unprecedented detail about the planet and its moons.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Saturn's rings are thought to be relatively young, perhaps only 100 million years old</li>
+        <li>The moon Enceladus has geysers that spray water ice into space, suggesting a subsurface ocean</li>
+        <li>Titan is the only moon in the solar system with a substantial atmosphere and stable liquid on its surface</li>
+        <li>Saturn's wind speeds can reach up to 1,800 kilometers per hour near the equator</li>
+        <li>The planet emits more energy than it receives from the Sun due to gravitational compression</li>
+        <li>Saturn's density is so low that it would float in water if there were an ocean big enough</li>
+      </ul>
+    </section>
+
+    <section id="uranus">
+      <h2>Uranus</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/800px-Uranus2.jpg" alt="Photograph of Uranus from Voyager 2 showing its blue-green color caused by methane in the atmosphere">
+      <h3>Overview</h3>
+      <p>Uranus is the seventh planet from the Sun and the third largest planet in our solar system. This ice giant is classified differently from Jupiter and Saturn because its composition includes more ices such as water, ammonia, and methane. Uranus has a distinctive blue-green color caused by methane in its atmosphere, which absorbs red light from the Sun and reflects blue and green wavelengths. Uranus was the first planet discovered using a telescope, found by William Herschel in 1781.</p>
+      <p>The most striking feature of Uranus is its extreme axial tilt of about 98 degrees, meaning the planet essentially rotates on its side. This unusual orientation may have resulted from a collision with an Earth-sized object early in the solar system's history. As a result of this tilt, Uranus experiences extreme seasonal variations, with each pole receiving around 42 years of continuous sunlight followed by 42 years of darkness.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Uranus has a diameter of approximately 51,118 kilometers, about four times the diameter of Earth. Despite being larger in diameter than Neptune, Uranus is less massive because it has a lower density. The planet's interior is thought to consist of an icy mixture of water, methane, and ammonia surrounding a small rocky core. Unlike the gas giants, Uranus and Neptune are often called ice giants because of this composition.</p>
+      <p>The atmosphere of Uranus is composed of about 83 percent hydrogen, 15 percent helium, and 2 percent methane, with traces of other hydrocarbons. The planet appears nearly featureless in visible light, though infrared observations have revealed cloud bands and storms. Uranus has a ring system discovered in 1977, though the rings are much darker and less visible than Saturn's. The planet has 27 known moons, all named after characters from the works of William Shakespeare and Alexander Pope.</p>
+      <h3>Orbital Data</h3>
+      <p>Uranus orbits the Sun at an average distance of 19.19 AU, completing one orbit in about 84 Earth years. A day on Uranus lasts approximately 17 hours and 14 minutes. The planet's extreme axial tilt means that during its solstices, one pole points almost directly toward the Sun. Uranus's orbit is nearly circular, with its distance from the Sun varying only slightly. The only spacecraft to visit Uranus was Voyager 2, which flew by in 1986.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Uranus is the coldest planetary atmosphere in the solar system, with temperatures dropping to minus 224 degrees Celsius</li>
+        <li>The planet's rings are composed of extremely dark particles, possibly carbon-rich material</li>
+        <li>Uranus rotates retrograde like Venus, though its extreme tilt makes this less noticeable</li>
+        <li>The moon Miranda has one of the most varied landscapes in the solar system, with huge canyons and fractured terrain</li>
+        <li>Uranus has a magnetic field tilted 59 degrees from its rotational axis, unlike any other planet</li>
+        <li>The planet was nearly named after King George III of England by its discoverer</li>
+      </ul>
+    </section>
+
+    <section id="neptune">
+      <h2>Neptune</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/800px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg" alt="Photograph of Neptune from Voyager 2 showing its deep blue color and visible storm systems">
+      <h3>Overview</h3>
+      <p>Neptune is the eighth and farthest planet from the Sun in our solar system. This ice giant is similar in composition to Uranus but is slightly smaller and more massive. Neptune's deep blue color, more vivid than Uranus's blue-green hue, is also caused by methane in the atmosphere, though the exact mechanism that makes it so much darker is not fully understood. Neptune was the first planet located through mathematical prediction rather than observation, discovered in 1846 based on irregularities in Uranus's orbit.</p>
+      <p>Neptune has the strongest winds of any planet in the solar system, with speeds reaching up to 2,100 kilometers per hour. Despite receiving very little heat from the Sun at its great distance, Neptune generates more internal heat than it receives, driving its dynamic weather systems. The planet has 16 known moons, the largest of which is Triton, a captured Kuiper Belt object that orbits Neptune in a retrograde direction.</p>
+      <h3>Physical Characteristics</h3>
+      <p>Neptune has a diameter of approximately 49,528 kilometers, about 3.9 times the diameter of Earth. It is the most dense of the giant planets, with a density of 1.64 grams per cubic centimeter. Like Uranus, Neptune's interior is thought to consist of ices and rock, with a small rocky core surrounded by a mantle of water, ammonia, and methane ices. The planet has a ring system consisting of five main rings, though they are faint and incomplete in places.</p>
+      <p>Neptune's atmosphere shows more active weather than Uranus despite being farther from the Sun. The Great Dark Spot observed by Voyager 2 in 1989 was a storm system similar to Jupiter's Great Red Spot, though it has since disappeared. Other storms and cloud features have been observed since then. The upper atmosphere has temperatures around minus 220 degrees Celsius, but the core may reach temperatures of 5,000 degrees Celsius or more.</p>
+      <h3>Orbital Data</h3>
+      <p>Neptune orbits the Sun at an average distance of 30.07 AU, completing one orbit in about 165 Earth years. Since its discovery in 1846, Neptune has completed only one full orbit around the Sun, which it finished in 2011. A day on Neptune lasts approximately 16 hours and 6 minutes. Neptune's axial tilt of 28.3 degrees is similar to Earth's and Mars's, giving it seasons, though each season lasts over 40 Earth years. The planet's orbit is nearly circular.</p>
+      <h3>Notable Facts</h3>
+      <ul>
+        <li>Neptune's moon Triton is the coldest known object in the solar system with surface temperatures of minus 235 degrees Celsius</li>
+        <li>Triton has active geysers that erupt nitrogen gas, making it one of the few geologically active moons</li>
+        <li>Neptune's magnetic field is tilted 47 degrees from its rotational axis and offset from the planet's center</li>
+        <li>The planet was named after the Roman god of the sea due to its blue color</li>
+        <li>Neptune has only been visited by one spacecraft, Voyager 2, which flew by in 1989</li>
+        <li>Triton orbits Neptune in the opposite direction of the planet's rotation, suggesting it was captured from the Kuiper Belt</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Images sourced from <a href="https://commons.wikimedia.org">Wikimedia Commons</a> under respective licenses. Educational content compiled from NASA and astronomical research.</p>
+  </footer>
+</body>
+</html>

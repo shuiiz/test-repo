@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baseball: America's Pastime</title>
+  <style>
+    :root {
+      --bg: #0d0f0a;
+      --surface: #141a0f;
+      --text: #d6d3c4;
+      --heading: #e8c84a;
+      --subheading: #7fbf7f;
+      --nav-link: #5fa85f;
+      --border: #1f2a1a;
+      --accent: #c0392b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      color: var(--heading);
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      color: var(--heading);
+      font-size: 1.8rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      color: var(--subheading);
+      font-size: 1.3rem;
+      margin-top: 1.2rem;
+      margin-bottom: 0.6rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background-color: var(--surface);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 1rem;
+    }
+
+    nav a {
+      color: var(--nav-link);
+      text-decoration: none;
+      font-size: 0.95rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    nav a:hover {
+      background-color: var(--border);
+      color: var(--heading);
+    }
+
+    main section {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      margin: 0.75rem 0 1rem 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+
+    th {
+      background-color: var(--accent);
+      color: #fff;
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.55rem 0.8rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    tr:nth-child(even) td {
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: var(--subheading);
+    }
+
+    .tagline {
+      color: var(--subheading);
+      font-style: italic;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Baseball: America's Pastime</h1>
+  <p class="tagline">Nine innings, three strikes, one great American tradition</p>
+</header>
+
+<nav aria-label="Page sections">
+  <a href="#overview">Overview</a>
+  <a href="#history">History</a>
+  <a href="#rules">Rules</a>
+  <a href="#positions">Positions</a>
+  <a href="#scoring">Scoring</a>
+  <a href="#famous-players">Famous Players</a>
+  <a href="#world-series">World Series</a>
+  <a href="#stats-table">Career Stats</a>
+</nav>
+
+<main>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <h3>What Is Baseball?</h3>
+    <p>Baseball is a bat-and-ball sport played between two teams of nine players each. The game is contested on a diamond-shaped field with bases at each corner — first, second, third, and home plate. One team bats while the other fields, and teams alternate between offense and defense throughout the game.</p>
+    <p>A standard professional game consists of nine innings. In each inning, both teams get a turn at bat. The batting team attempts to score runs by hitting the ball and advancing around the bases, while the fielding team tries to record three outs to end the inning. The team with the most runs at the end of nine innings wins.</p>
+    <h3>Global Reach</h3>
+    <p>While deeply rooted in American culture, baseball has spread worldwide. It is immensely popular in the Dominican Republic, Cuba, Japan, South Korea, Venezuela, and many other countries. Major League Baseball (MLB) draws talent from across the globe, and international competitions such as the World Baseball Classic celebrate the sport's global community.</p>
+  </section>
+
+  <section id="history">
+    <h2>History</h2>
+    <h3>Origins and Early Development</h3>
+    <p>The precise origins of baseball are debated by historians. For many years, popular legend credited Abner Doubleday with inventing the game in Cooperstown, New York, in 1839. However, this story has been largely debunked — Doubleday left no writings about baseball, and the game clearly evolved from older English bat-and-ball games like rounders and cricket.</p>
+    <p>A more credible milestone is the codification of formal rules by Alexander Cartwright and the Knickerbocker Base Ball Club of New York in 1845. The Knickerbocker Rules established key elements still present today: foul lines, the nine-player team, and the concept of retiring batters by tagging bases rather than throwing the ball at runners.</p>
+    <h3>The National Pastime</h3>
+    <p>Baseball grew rapidly in popularity through the latter half of the 19th century. The first professional league, the National Association of Professional Base Ball Players, was formed in 1871. The National League followed in 1876, and the American League in 1901. The two leagues merged their championship into the first modern World Series in 1903.</p>
+    <p>Throughout the early 20th century, legends like Ty Cobb, Honus Wagner, and Babe Ruth turned baseball into the dominant sport in America. The integration of the league by Jackie Robinson in 1947 marked a watershed moment — not just for baseball, but for American society as a whole.</p>
+  </section>
+
+  <section id="rules">
+    <h2>Rules</h2>
+    <h3>Basic Structure</h3>
+    <p>A baseball game is divided into innings. Each inning has two halves: the top (visiting team bats) and the bottom (home team bats). Each half-inning ends when the fielding team records three outs. A standard game has nine innings; if the score is tied after nine, extra innings are played until one team leads at the end of a complete inning.</p>
+    <h3>Balls, Strikes, and Outs</h3>
+    <p>Each plate appearance involves a series of pitches. A strike is recorded when a batter swings and misses, when a pitch crosses the strike zone without a swing, or when a batted ball lands in foul territory (with two strikes already, foul balls do not count as a third strike unless bunted). Three strikes retire the batter — a strikeout. A ball is a pitch outside the strike zone that the batter does not swing at. Four balls result in a walk, allowing the batter to advance to first base.</p>
+    <ul>
+      <li><strong>Strikeout:</strong> Three strikes recorded against a batter</li>
+      <li><strong>Walk (Base on Balls):</strong> Four balls awarded, batter advances to first</li>
+      <li><strong>Flyout:</strong> Batted ball caught before touching the ground</li>
+      <li><strong>Groundout:</strong> Fielder throws to first base before batter arrives</li>
+      <li><strong>Force Out / Tag Out:</strong> Runner put out at a base or tagged with the ball</li>
+    </ul>
+    <h3>Advancing and Scoring</h3>
+    <p>Runners advance around the bases — first, second, third, and then home plate — to score runs. A batter who hits a pitch and reaches first safely is credited with a hit. Hitting a ball over the outfield fence in fair territory is a home run, scoring the batter and all runners on base.</p>
+  </section>
+
+  <section id="positions">
+    <h2>Positions</h2>
+    <h3>The Nine Fielding Positions</h3>
+    <p>Each team fields nine players simultaneously on defense. The positions are divided between the battery, the infield, and the outfield.</p>
+    <ul>
+      <li><strong>Pitcher (P):</strong> Throws the ball to home plate to retire batters; the central defensive player</li>
+      <li><strong>Catcher (C):</strong> Crouches behind home plate, receives pitches, and directs the defense</li>
+      <li><strong>First Baseman (1B):</strong> Guards first base and receives throws to retire batters on grounders</li>
+      <li><strong>Second Baseman (2B):</strong> Covers second base and the right side of the infield</li>
+      <li><strong>Shortstop (SS):</strong> Positioned between second and third base; often the most athletic infielder</li>
+      <li><strong>Third Baseman (3B):</strong> Guards the "hot corner," fielding hard-hit line drives and grounders</li>
+      <li><strong>Left Fielder (LF):</strong> Covers the left portion of the outfield</li>
+      <li><strong>Center Fielder (CF):</strong> Covers the widest area in the outfield; typically the fastest outfielder</li>
+      <li><strong>Right Fielder (RF):</strong> Covers the right portion of the outfield; often has the strongest throwing arm</li>
+    </ul>
+    <h3>Designated Hitter</h3>
+    <p>In the American League (and now universally in MLB), a Designated Hitter (DH) bats in place of the pitcher, who does not take a turn at the plate. This rule allows teams to keep a powerful hitter in the lineup without requiring the pitcher to bat.</p>
+  </section>
+
+  <section id="scoring">
+    <h2>Scoring</h2>
+    <h3>How Runs Are Scored</h3>
+    <p>A run is scored when a baserunner successfully advances around all three bases and touches home plate before the inning ends. Runs can be driven in by hits, walks, sacrifice flies, hit batsmen, or errors. The batter who hits the ball that allows a runner to score is credited with a Run Batted In (RBI).</p>
+    <h3>Key Offensive Statistics</h3>
+    <ul>
+      <li><strong>Batting Average (BA):</strong> Hits divided by at-bats; a .300 average is considered excellent</li>
+      <li><strong>On-Base Percentage (OBP):</strong> Measures how often a batter reaches base (hits + walks + hit by pitch)</li>
+      <li><strong>Slugging Percentage (SLG):</strong> Measures power by weighting extra-base hits</li>
+      <li><strong>OPS:</strong> On-base percentage plus slugging percentage; a comprehensive offensive metric</li>
+      <li><strong>RBI:</strong> Runs Batted In — number of runners a batter drives home</li>
+      <li><strong>Home Run (HR):</strong> Ball hit over the outfield fence in fair territory</li>
+    </ul>
+    <h3>Key Pitching Statistics</h3>
+    <p>On the pitching side, the Earned Run Average (ERA) is the most fundamental stat — it measures the average number of earned runs a pitcher allows per nine innings. A lower ERA indicates better performance. Strikeouts (K), walks (BB), and WHIP (walks plus hits per inning pitched) are also closely watched metrics.</p>
+    <p>The batting average of a team's opponents (BAA or OBA) and Win-Loss record (W-L) round out the traditional picture of a pitcher's effectiveness.</p>
+  </section>
+
+  <section id="famous-players">
+    <h2>Famous Players</h2>
+    <h3>Legends of the Game</h3>
+    <p>Baseball's rich history has produced some of the most celebrated athletes in all of sport. Below are a few of the game's most iconic figures.</p>
+    <ul>
+      <li>
+        <strong>Babe Ruth (1895–1948):</strong> Known as "The Sultan of Swat," Babe Ruth transformed baseball with his prodigious power hitting. He hit 714 career home runs, a record that stood for nearly 40 years. Ruth played for the Red Sox, Yankees, and Braves, and his persona helped popularize the sport during the Roaring Twenties.
+      </li>
+      <li>
+        <strong>Jackie Robinson (1919–1972):</strong> In 1947, Jackie Robinson broke Major League Baseball's color barrier when he debuted for the Brooklyn Dodgers, becoming the first Black player in the modern era. Robinson endured intense racial hostility with dignity and courage, paving the way for future generations of players of color. He was a gifted athlete, winning the inaugural Rookie of the Year Award and the 1949 NL MVP.
+      </li>
+      <li>
+        <strong>Willie Mays (1931–2024):</strong> Widely regarded as the greatest all-around player in baseball history, "The Say Hey Kid" excelled in every phase of the game — hitting (.302 career average), power (660 home runs), speed, and defense. His over-the-shoulder catch in the 1954 World Series remains one of the most celebrated plays ever.
+      </li>
+      <li>
+        <strong>Hank Aaron (1934–2021):</strong> "Hammerin' Hank" broke Babe Ruth's home run record in 1974 and finished his career with 755 homers. Aaron was a model of consistency, hitting at least 24 home runs in 20 consecutive seasons. He also drove in more than 2,200 RBI over his career.
+      </li>
+      <li>
+        <strong>Ty Cobb (1886–1961):</strong> The "Georgia Peach" holds the all-time MLB record for career batting average at .366. Cobb was known for his fierce competitiveness and aggressive base-running. He collected 4,189 career hits, a record that stood until Pete Rose surpassed it in 1985.
+      </li>
+    </ul>
+  </section>
+
+  <section id="world-series">
+    <h2>World Series</h2>
+    <h3>The Fall Classic</h3>
+    <p>The World Series is the annual championship series of Major League Baseball. Played each October (earning the nickname "The Fall Classic"), it pits the champion of the American League against the champion of the National League in a best-of-seven series. The first team to win four games claims the Commissioner's Trophy and the title of World Champions.</p>
+    <p>The first modern World Series was played in 1903, with the Boston Americans defeating the Pittsburgh Pirates five games to three (the series was best-of-nine that year). Since then, the World Series has been held every year except 1904 and 1994 (the 1994 season was cancelled by a player strike).</p>
+    <h3>Notable Champions</h3>
+    <ul>
+      <li><strong>New York Yankees:</strong> The most successful franchise in World Series history, with 27 championships. The Yankees dynasty includes eras led by Babe Ruth, Joe DiMaggio, Mickey Mantle, and Derek Jeter.</li>
+      <li><strong>St. Louis Cardinals:</strong> The National League's most decorated team, with 11 World Series titles, including championships in 1926, 1942, 1944, 1964, and 2011.</li>
+      <li><strong>Boston Red Sox:</strong> Famous for ending the "Curse of the Bambino" with their 2004 championship — their first in 86 years — and winning again in 2007, 2013, and 2018.</li>
+      <li><strong>Chicago Cubs:</strong> In 2016, the Cubs ended a 108-year championship drought with a dramatic Game 7 victory over the Cleveland Indians, thrilling their long-suffering fanbase.</li>
+    </ul>
+    <h3>Memorable Moments</h3>
+    <p>The World Series has produced countless memorable moments: Don Larsen's perfect game in 1956, Bill Mazeroski's walk-off home run in 1960, Kirk Gibson's pinch-hit homer in 1988, and Edgar Renteria's Series-clinching hit in 1997. Each generation of fans carries its own unforgettable Fall Classic memory.</p>
+  </section>
+
+  <section id="stats-table">
+    <h2>Career Stats Leaders</h2>
+    <h3>All-Time Career Statistics</h3>
+    <p>The following table compares all-time career leaders across several major offensive categories. These figures represent official MLB career totals for retired players.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Career Hits</th>
+          <th>Home Runs</th>
+          <th>RBI</th>
+          <th>Batting Average</th>
+          <th>Years Active</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pete Rose</td>
+          <td>4,256</td>
+          <td>160</td>
+          <td>1,314</td>
+          <td>.303</td>
+          <td>1963–1986</td>
+        </tr>
+        <tr>
+          <td>Ty Cobb</td>
+          <td>4,189</td>
+          <td>117</td>
+          <td>1,937</td>
+          <td>.366</td>
+          <td>1905–1928</td>
+        </tr>
+        <tr>
+          <td>Hank Aaron</td>
+          <td>3,771</td>
+          <td>755</td>
+          <td>2,297</td>
+          <td>.305</td>
+          <td>1954–1976</td>
+        </tr>
+        <tr>
+          <td>Babe Ruth</td>
+          <td>2,873</td>
+          <td>714</td>
+          <td>2,213</td>
+          <td>.342</td>
+          <td>1914–1935</td>
+        </tr>
+        <tr>
+          <td>Willie Mays</td>
+          <td>3,283</td>
+          <td>660</td>
+          <td>1,903</td>
+          <td>.302</td>
+          <td>1951–1973</td>
+        </tr>
+        <tr>
+          <td>Barry Bonds</td>
+          <td>2,935</td>
+          <td>762</td>
+          <td>1,996</td>
+          <td>.298</td>
+          <td>1986–2007</td>
+        </tr>
+        <tr>
+          <td>Stan Musial</td>
+          <td>3,630</td>
+          <td>475</td>
+          <td>1,951</td>
+          <td>.331</td>
+          <td>1941–1963</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  <p>Baseball has been played professionally for over 150 years and remains one of the world's great athletic traditions.</p>
+  <p>Statistical data sourced from official MLB historical records. Career totals for retired players only.</p>
+</footer>
+
+</body>
+</html>
